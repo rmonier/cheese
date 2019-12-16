@@ -1,0 +1,3 @@
+y a d'js chez nous (on c pa fair lol)
+
+KONSOL.LOG('krot')
