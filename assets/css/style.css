@@ -1,5 +1,17 @@
+@font-face
+{
+	font-family: "Enriqueta Bold";
+	font-weight: normal;
+	font-style: normal;
+	src:	url("../font/Enriqueta-Bold.woff2") format("woff2"),
+			url("../font/Enriqueta-Bold.woff") format("woff"),
+			url("../font/Enriqueta-Bold.ttf") format("truetype"),
+			url("../font/Enriqueta-Bold.otf") format("opentype");
+}
+
 body
 {
+	font-family: "Enriqueta Bold", "sans-serif";
 	margin: 0;
 	padding: 0;
 	width: 100vw;
