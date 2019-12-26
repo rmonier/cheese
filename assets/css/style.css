@@ -129,7 +129,7 @@ main
 	transform: skew(20deg);
 }
 
-#msg_jour article, #promo_jour article
+#msg_jour > *, #promo_jour > *
 {
 	transform: skew(-20deg);
 	color: #FFFFFF;
