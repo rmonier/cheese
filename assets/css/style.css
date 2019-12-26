@@ -50,6 +50,16 @@ header h1, header ul, header ul li, footer ul li
 	display: inline-block;
 }
 
+header nav ul
+{
+	font-size: 1.3em;
+}
+
+header nav ul li::after
+{
+	content: " | ";
+}
+
 header a
 {
 	text-decoration: none;
@@ -64,7 +74,7 @@ header #logo
 
 .header_list img
 {
-	width: 50px;
+	width: 35px;
 	height: auto;
 }
 
