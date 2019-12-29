@@ -12,6 +12,11 @@ main
 	color: #030F17;
 }
 
+main a:hover
+{
+	opacity: 0.7;
+}
+
 #msg_jour, #promo_jour
 {
 	width: 70vw;
@@ -38,11 +43,24 @@ main
 	color: #FFFFFF;
 }
 
+#accueil_article h2
+{
+	font-size: 3em;
+}
+
+#accueil_article h3
+{
+	font-size: 1.8em;
+}
+
 #accueil_article article
 {
 	width: 50vw;
 	height: auto;
 	margin: auto;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	background-image: linear-gradient(to top, #f3ec75, #e8d264, #dbb956, #cda149, #bd893e);
 	color: #030F17;
 }
@@ -50,14 +68,14 @@ main
 #accueil_article article:nth-of-type(2n+1)
 {
 	transform: skew(20deg);
-	margin-left: -20px;
+	margin-left: -35px;
 	padding-left: 20px;
 }
 
 #accueil_article article:nth-of-type(2n)
 {
 	transform: skew(-20deg);
-	margin-right: -20px;
+	margin-right: -35px;
 	padding-right: 20px;
 }
 
@@ -69,4 +87,17 @@ main
 #accueil_article article:nth-of-type(2n) > *
 {
 	transform: skew(20deg);
+}
+
+@media all and (max-width: 1105px)
+{
+	#accueil_article h2
+	{
+		font-size: 2em;
+	}
+
+	#accueil_article h3
+	{
+		font-size: 1.2em;
+	}
 }

@@ -30,7 +30,12 @@
 					<li><a href="carte.html">CARTE DES FROMAGES</a></li>
 					<li><a href="boites.html">VOS BOÎTES</a></li>
 					<li><a href="pro.html">PRO</a></li>
-					<li><input id="recherche" type="text" placeholder="Rechercher..." /></li>
+					<li>
+						<form action="carte.html" method="POST">
+							<label for="recherche"><input name="recherche" id="recherche" type="text" placeholder="Rechercher..." /></label>
+							<input type="submit" value="🔍" />
+						</form>
+					</li>
 					<li><a href="panier.html"><img id="panier" src="assets/img/panier.png" alt="Panier" title="Panier" /></a></li>
 					<li><a href="client.html"><img id="connexion" src="assets/img/user.png" alt="Connexion" title="Connexion" /></a></li>
 				</ul>
@@ -42,10 +47,184 @@
 				<h2>TROUVEZ LE FROMAGE PARFAIT</h2>
 				<article>
 					<h3>Filtrez vos préférences...</h3>
-					<input id="recherche" type="text" placeholder="Rechercher..." autofocus />
+					<form action="carte.html" method="POST">
+						<label for="filtre"><input name="filtre" id="filtre" type="text" placeholder="Rechercher..." autofocus /></label>
+						<input type="submit" value="Filtrer" />
+					</form>
 				</article>
 			</aside>
 			<section>
+				<h2>SUCCOMBEZ À NOS PLAISIRS...</h2>
+				<div id="carte_fromage">
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/Anneau_Vic-Bilh_1_600600-600x600.jpg" alt="Anneau Vic Bilh" title="Anneau Vic Bilh" />
+							<div class="info_prod">
+								<p class="prix">7.60 €</p>
+								<p class="pate">Pâte molle</p>
+								<p class="lait">Lait cru de chèvre</p>
+								<p class="affinage">Affinage de 9 mois</p>
+							</div>
+							<h3>Anneau Vic Bilh</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/Beaufort_3_OK_600600-600x600.jpg" alt="Beaufort AOP" title="Beaufort AOP" />
+							<div class="info_prod">
+								<p class="prix">13.60 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 9 mois</p>
+							</div>
+							<h3>Beaufort AOP</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/Bleu-des-Causses_600600-600x600.jpg" alt="Bleu des Causses AOP" title="Bleu des Causses AOP" />
+							<div class="info_prod">
+								<p class="prix">4.30 €</p>
+								<p class="pate">Pâte molle</p>
+								<p class="lait">Lait pasteurisé de Vache</p>
+								<p class="affinage">Affinage entre 3 et 6 Mois</p>
+							</div>
+							<h3>Bleu des Causses AOP</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/Camembert_2OK2_600600-600x600.jpg" alt="Camembert de Normandie AOP" title="Camembert de Normandie AOP" />
+							<div class="info_prod">
+								<p class="prix">7.00 €</p>
+								<p class="pate">Pâte molle</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 1 mois</p>
+							</div>
+							<h3>Camembert de Normandie AOP</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+					<article>
+						<a href="detail_produit.html">
+							<img src="assets/img/content/curé-Nantais2-600600-600x600.jpg" alt="Curé nantais" title="Curé nantais" />
+							<div class="info_prod">
+								<p class="prix">7.30 €</p>
+								<p class="pate">Pâte dure</p>
+								<p class="lait">Lait cru de vache</p>
+								<p class="affinage">Affinage de 12 mois</p>
+							</div>
+							<h3>Curé nantais</h3>
+						</a>
+					</article>
+				</div>
 			</section>
 		</main>
 		

@@ -30,7 +30,12 @@
 					<li><a href="carte.html">CARTE DES FROMAGES</a></li>
 					<li><a href="boites.html">VOS BOÎTES</a></li>
 					<li><a href="pro.html">PRO</a></li>
-					<li><input id="recherche" type="text" placeholder="Rechercher..." autofocus /></li>
+					<li>
+						<form action="carte.html" method="POST">
+							<label for="recherche"><input name="recherche" id="recherche" type="text" placeholder="Rechercher..." autofocus /></label>
+							<input type="submit" value="🔍" />
+						</form>
+					</li>
 					<li><a href="panier.html"><img id="panier" src="assets/img/panier.png" alt="Panier" title="Panier" /></a></li>
 					<li><a href="client.html"><img id="connexion" src="assets/img/user.png" alt="Connexion" title="Connexion" /></a></li>
 				</ul>

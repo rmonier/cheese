@@ -66,9 +66,20 @@ header a
 	color: #FFFFFF;
 }
 
+header form
+{
+	display: inline-block;
+}
+
 header #logo
 {
 	width: 100px;
+	height: auto;
+}
+
+header #recherche
+{
+	width: 80px;
 	height: auto;
 }
 
@@ -76,6 +87,11 @@ header #logo
 {
 	width: 35px;
 	height: auto;
+}
+
+.header_list a:hover
+{
+	opacity: 0.9;
 }
 
 footer
@@ -107,12 +123,22 @@ footer a:visited, main a:visited
 	color: #BD893E;
 }
 
+footer a:hover
+{
+	opacity: 0.7;
+}
+
 #footer_contacts img
 {
 	width: 50px;
 	height: auto;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+a
+{
+	transition: opacity 0.2s ease;
 }
 
 .centrer_skew

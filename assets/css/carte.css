@@ -11,3 +11,120 @@ main
 	text-align: center;
 	color: #030F17;
 }
+
+main section h2
+{
+	font-size: 3em;
+}
+
+aside
+{
+	width: 50vw;
+	height: auto;
+	margin: auto;
+	padding-bottom: 30px;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#carte_fromage
+{
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-flow: row;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	text-align: center;
+}
+
+#carte_fromage article a
+{
+	position: relative;
+	color: #030F17;
+}
+
+#carte_fromage article a:hover img
+{
+	opacity: 0.5;
+}
+
+#carte_fromage article a:hover .info_prod
+{
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	top: -20vw;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	opacity: 1;
+}
+
+#carte_fromage img
+{
+	width: 20vw;
+	height: auto;
+	z-index: 0;
+	transition: opacity 0.2s ease;
+	opacity: 1;
+}
+
+#carte_fromage .info_prod
+{
+	opacity: 0;
+	display: none;
+	z-index: 1;
+}
+
+#carte_fromage .prix
+{
+	font-size: 3em;
+}
+
+@media all and (max-width: 1105px)
+{
+	#carte_fromage
+	{
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#carte_fromage img
+	{
+		width: 40vw;
+		height: auto;
+	}
+	
+	#carte_fromage article a:hover .info_prod
+	{
+		top: -40vw;
+	}
+	
+	main section h2
+	{
+		font-size: 2em;
+	}
+}
+	
+@media all and (max-width: 650px)
+{
+	#carte_fromage
+	{
+		grid-template-columns: 1fr;
+	}
+	
+	#carte_fromage img
+	{
+		width: 70vw;
+		height: auto;
+	}
+	
+	#carte_fromage article a:hover .info_prod
+	{
+		top: -70vw;
+	}
+}
