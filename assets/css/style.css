@@ -178,14 +178,19 @@ main
 	padding-right: 20px;
 }
 
-#accueil_article article:nth-of-type(2n+1) *
+#accueil_article article:nth-of-type(2n+1) > *
 {
 	transform: skew(-20deg);
 }
 
-#accueil_article article:nth-of-type(2n) *
+#accueil_article article:nth-of-type(2n) > *
 {
 	transform: skew(20deg);
+}
+
+.centrer_skew
+{
+	text-align: center;
 }
 
 .link_detail::after
