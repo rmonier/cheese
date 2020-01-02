@@ -45,6 +45,11 @@ header
 	color: #FFFFFF;
 }
 
+header h1
+{
+	font-size: 2em;
+}
+
 header h1, header ul, header ul li, footer ul li
 {
 	display: inline-block;
@@ -170,8 +175,13 @@ a
 {
 	header
 	{
-		grid-auto-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-auto-flow: row;
+	}
+	
+	header nav
+	{
+		grid-column: 1 / -1;
 	}
 	
 	header h1 *
@@ -185,26 +195,35 @@ a
 		width: 50px;
 	}
 	
-	header .header_list img
-	{
-		width: 25px;
-	}
-	
 	header .header_list
 	{
 		display: none;
 	}
 	
+	header .header_list img
+	{
+		width: 25px;
+	}
+	
 	header .header_dropdown
 	{
+		transition: opacity 0.2s ease;
 		display: grid;
 		margin-bottom: 20px;
 		font-size: 5em;
+		cursor: pointer;
 	}
 	
-	header #h_dropcheck:checked ~ .header_list
+	header .header_dropdown:hover
 	{
-		display: grid;	
+		opacity: 0.7;
+	}
+	
+	header #h_dropcheck:checked ~ nav .header_list
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-flow: row;
 	}
 	
 	header #h_dropcheck:checked ~ label #h_dropsign_open
