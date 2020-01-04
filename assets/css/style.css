@@ -1,4 +1,4 @@
-@font-face
+﻿@font-face
 {
 	font-family: "Enriqueta Bold";
 	font-weight: normal;
@@ -111,7 +111,7 @@ header .header_list img
 
 header .header_list a:hover
 {
-	opacity: 0.9;
+	opacity: 0.4;
 }
 
 footer
