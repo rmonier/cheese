@@ -248,6 +248,21 @@ a
 	
 	#footer_contacts
 	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#footer_contacts img
+	{
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 650px)
+{
+	#footer_contacts
+	{
+		display: grid;
 		grid-template-columns: 1fr;
 	}
 
