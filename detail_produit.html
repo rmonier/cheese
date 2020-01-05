@@ -8,6 +8,57 @@
 	</head>
 
 	<body>
-		<p>salut</p>
+
+		<header>
+			<a href="index.html"><h1><img id="logo" src="assets/img/logo.png" alt="cheese." title="cheese." />cheese.</h1></a>
+			<input type="checkbox" class="header_dropdown" id="h_dropcheck" value="" name="h_dropcheck"><label class="header_dropdown" for="h_dropcheck"><span id="h_dropsign_open">≡</span><span id="h_dropsign_close">🞨</span></label>
+			<nav>
+				<ul class="header_list">
+					<li><a href="index.html">ACCUEIL</a></li>
+					<li><a href="carte.html">CARTE DES FROMAGES</a></li>
+					<li><a href="boites.html">VOS BOÎTES</a></li>
+					<li><a href="pro.html">PRO</a></li>
+					<li>
+						<form action="carte.html" method="POST">
+							<label for="recherche"><input name="recherche" id="recherche" type="text" placeholder="Rechercher..." autofocus /></label>
+							<input type="submit" value="🔍" />
+						</form>
+					</li>
+					<li><a href="panier.html"><img id="panier" src="assets/img/panier.png" alt="Panier" title="Panier" /></a></li>
+					<li><a href="client.html"><img id="connexion" src="assets/img/user.png" alt="Connexion" title="Connexion" /></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+
+		</main>
+
+		<footer>
+			<section>
+				<h2>CONTACTS</h2>
+				<nav>
+					<ul class="footer_list" id="footer_contacts">
+						<li><a target="_blank" rel="noopener noreferrer" href="https://facebook.com/cheese."><img src="assets/img/facebook.png" alt="FACEBOOK" title="FACEBOOK" /></a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href="https://instagram.com/cheese."><img src="assets/img/instagram.png" alt="INSTAGRAM" title="INSTAGRAM" /></a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/cheese."><img src="assets/img/twitter.png" alt="TWITTER" title="TWITTER" /></a></li>
+						<li><a href="mailto:cheese-fromage@gmail.com"><img src="assets/img/mail.png" alt="MAIL" title="MAIL" /></a></li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h2>MENTIONS LÉGALES</h2>
+				<ul class="footer_list">
+					<li>Créé par <a  target="_blank" rel="noopener noreferrer" href="https://github.com/rmonier">Romain MONIER</a> &amp; <a  target="_blank" rel="noopener noreferrer" href="https://github.com/Cannapaich">Thomas BERGER</a></li>
+					<li><a href="tech.html">Lire les détails techniques</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>QUI SOMMES-NOUS ?</h2>
+				<ul class="footer_list">
+					<li><a href="cheese.html">Découvrez cheese.</a></li>
+				</ul>
+			</section>
+		</footer>
 	</body>
 </html>
