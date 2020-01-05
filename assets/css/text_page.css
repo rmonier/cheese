@@ -1,0 +1,19 @@
+main p
+{
+	width: 70vw;
+	text-align: justify;
+	margin: auto;
+	text-indent: 30px;
+	margin-bottom: 10px;
+}
+
+h3
+{
+	font-size: 2em;
+}
+
+h4
+{
+	font-style: italic;
+	color: #BD893E;
+}

@@ -3,6 +3,7 @@
 	<head>
 		<title>cheese. – Détails Techniques</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/text_page.css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width">
 		<!-- ICÔNE -->
@@ -49,18 +50,23 @@
 					<article>
 						<h3>Compte Rendu</h3>
 							<h4>L'Accueil</h4>
-							<p>blablablablablablablablablablablablablablablablablablablablablabla</p>
-							<p>blablablablablablablablablablablablablablablablablablablablablabla</p>
+							<p>L'Accueil se devait de contenir plusieurs éléments : un message du jour, un message de promotion et une fonction de recherche. Nous avons donc décidé de séparer les deux messages de l'accueil de manière à les faire ressembler à de petites fenêtres. Ainsi, elles apparaissent comme étant des notifications, en haut de page, pour que l'utilisateur les remarque immédiatement. Pour ce qui est du message du jour, il est accessible plus en détail sur le blog de l'entreprise (medium), un court extrait s'affiche sur l'acceuil.</p>
+							<p>Nous avons ensuite le corps de la page, les éléments principaux de l'accueil étant une présentation générale des produits et des manières de faire de l'entreprise, avant tout pour assurer au consommateur d'être rassuré et d'être à l'aise dans sa démarche d'achat. Des liens vers la description de cheese. sont donc présents et amènent vers plus d'informations.</p>
+							<p>Pour ce qui est du dernier élément recquis, à savoir la fonction de recherche, nous avons décidé de l'inclure non seulement sur l'accueil, mais aussi sur toutes les pages du site, l'utilisateur pouvant à tout moment choisir de rechercher un produit. Nous l'avons donc placé dans l'header du site.</p>
+							<p>Le site est en effet composé de 3 parties : un <code>header</code>, un <code>main</code> (variable selon les pages) et un <code>footer</code>.</p>
+							<p>Le header tout d'abord constitue un moyen de naviguer par l'intermédiaire de <code>nav</code>, on peut se déplacer vers l'accueil (en cliquant soit sur le logo soit sur le bouton ACCUEIL), la carte des fromages, la page de création de boîtes et l'espace Pro. Il est aussi possible de faire une recherche via un formulaire. Le Panier et l'Espace Client sont quant à eux accessibles en cliquant sur les icônes les représentant.</p>
+							<p>Le footer enfin rassemble les contacts de l'entreprise (liens externes fictifs) au sein du balise <code>nav</code> égalemment, listés à l'aide d'une <code>ul</code>. Se trouvent ensuite des liens vers la description du site et de ses détails techniques.</p>
+							<p>Au niveau du responsive, le site utilise la balise <code>meta</code> viewport ainsi que des media queries. Le header se comporte de manière dynamique et réagi au click d'une <code>input checkbox</code> dissimulée liée à un label visible, et permet d'afficher ou non le menu de navigation en cliquant dessus à l'aide de l'attribut <code>:checked</code> en CSS.</p>
 							
 							<h4>La Carte des Fromages</h4>
-							<p>blablablablablablablablablablablablablablablablablablablablablabla</p>
-							<p>blablablablablablablablablablablablablablablablablablablablablabla</p>
+							<p>Cette partie du site est la page de résultat de recherche avec une liste de produits. Sans recherche, elle est aussi accessible et rassemble alors tous les produits. On y retrouve notre <code>header</code> et notre <code>footer</code> ainsi que notre <code>main</code> constitué d'un <code>aside</code> positionné en haut afin d'affiner sa recherche avec des filtres, et d'une <code>section</code> pour la grille des produits.</p>
+							<p><code>grid</code> est ainsi utilisé pour un affichage par 4, 2 ou 1 produit par ligne en fonction de la taille d'écran. Un aperçu du détail des produits peut être observé en passant la souris sur le titre du produit ou son image, englobés dans une balise <code>a</code>, chaque produit étant dans une balise <code>article</code>. Le CSS fait apparaitre le détail des produits par dessus l'image en y ajoutant un léger filtre blanc obtenu en jouant avec l'opacité de l'image. Le tout est accompagné d'une transition <code>ease</code> pour plus de douceur lorsque la pseudo-classe <code>:hover</code> s'active.</p>
 							
 							<h4>La Description des Produits</h4>
-							<p>blablablablablablablablablablablablablablablablablablablablablabla</p>
+							<p>à remplir</p>
 							
 							<h4>Le Panier</h4>
-							<p>blablablablablablablablablablablablablablablablablablablablablabla</p>
+							<p>à remplir</p>
 					</article>
 				</div>
 			</section>
