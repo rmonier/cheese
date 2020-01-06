@@ -9,65 +9,120 @@
 	</head>
 
 	<body>
+
+		<header>
+			<a href="index.html"><h1><img id="logo" src="assets/img/logo.png" alt="cheese." title="cheese." />cheese.</h1></a>
+			<input type="checkbox" class="header_dropdown" id="h_dropcheck" value="" name="h_dropcheck"><label class="header_dropdown" for="h_dropcheck"><span id="h_dropsign_open">≡</span><span id="h_dropsign_close">🞨</span></label>
+			<nav>
+				<ul class="header_list">
+					<li><a href="index.html">ACCUEIL</a></li>
+					<li><a href="carte.html">CARTE DES FROMAGES</a></li>
+					<li><a href="boites.html">VOS BOÎTES</a></li>
+					<li><a href="pro.html">PRO</a></li>
+					<li>
+						<form action="carte.html" method="POST">
+							<label for="recherche"><input name="recherche" id="recherche" type="text" placeholder="Rechercher..." autofocus /></label>
+							<input type="submit" value="🔍" />
+						</form>
+					</li>
+					<li><a href="panier.html"><img id="panier" src="assets/img/panier.png" alt="Panier" title="Panier" /></a></li>
+					<li><a href="client.html"><img id="connexion" src="assets/img/user.png" alt="Connexion" title="Connexion" /></a></li>
+				</ul>
+			</nav>
+		</header>
+
 		<!--header-->
 
-		<section>
-			<h1>Mon Panier</h1>
-			<article> <!-- fromton N°1 -->
-				<img />
-				<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
-				<div> 99,99€</div> <!-- affichage prix -->
-				<p>
-					<h2>titre du fromage - Trou Du Cru</h2>
-					decription produit <br/> tré bo fromaj
-				</p>
-				<ul>
-					<li>specs</li>
-					<li>du</li>
-					<li>produit</li>
-				</ul>
-				<label for="nb_produit1">Nombre</label>
-				<input type="number" id="nb_produit1"></input> 
-				<button>Retirer du Panier</button> <!-- retirer du paniézouz -->
-			</article>
-			<hr/>
-			<article> <!-- fromton N°2 -->
-				<img />
-				<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
-				<div> 98,99€</div> <!-- affichage prix -->
-				<p>
-					<h2>titre du fromage - Saint Romain</h2>
-					decription produit <br/> tré bo fromaj
-				</p>
-				<ul>
-					<li>specs</li>
-					<li>du</li>
-					<li>produit</li>
-				</ul>
-				<label for="nb_produit2">Nombre</label>
-				<input type="number" id="nb_produit2"></input> 
-				<button>Retirer du Panier</button> <!-- retirer du paniézouz -->
-			</article>
-			<hr/>
-			<article> <!-- fromton N°3 -->
-				<img />
-				<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
-				<div> 97,99€</div> <!-- affichage prix -->
-				<p>
-					<h2>titre du fromage - Brie de France</h2>
-					decription produit <br/> tré bo fromaj
-				</p>
-				<ul>
-					<li>specs</li>
-					<li>du</li>
-					<li>produit</li>
-				</ul>
-				<label for="nb_produit3">Nombre</label>
-				<input type="number" id="nb_produit3"></input> 
-				<button>Retirer du Panier</button> <!-- retirer du paniézouz -->
-			</article>
-		</section>
+		<main>
+			<section>
+				<h1>Mon Panier</h1>
+				<article> <!-- fromton N°1 -->
+					<img src="assets/img/content/le-trou-du-cru.jpg"/>
+
+					<h2>Trou Du Cru</h2>
+					<p>Le Trou du Cru est un fromage au lait de vache à pâte molle à croûte lavée, originaire de Côte d’Or. Il est lavé pendant<br/>3 semaine d’affinage au marc de Bourgogne (alcool fort).</p>
+					<ul>
+						<li>Pâte Molle</li>
+						<li>Lait de Vache</li>
+						<li>Bourgogne</li>
+					</ul>
+
+					<label for="nb_produit1">Nombre</label>
+					<input type="number" id="nb_produit1"></input> 
+					<form action="https://tr.rbxcdn.com/5dc2e1e750df2a17754513e1777d58ec/420/420/Decal/Png"><button type="submit">Retirer du Panier</button></form>
+
+					<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
+					<div>14,99€</div> <!-- affichage prix -->					
+				</article>
+				<hr/>
+				<article> <!-- fromton N°2 -->
+					<img src="assets/img/content/saint-romain-76890998.jpg"/>
+
+					<h2>Saint Romain</h2>
+					<p>Ce fromage est une base de Neufchâtel de production normande mais est plus crémeux.</p>
+					<ul>
+						<li>Pâte Pressée</li>
+						<li>Lait de Vache</li>
+						<li>Bourgogne</li>
+					</ul>
+
+					<label for="nb_produit2">Nombre</label>
+					<input type="number" id="nb_produit2"></input>
+					<form action="https://tr.rbxcdn.com/5dc2e1e750df2a17754513e1777d58ec/420/420/Decal/Png"><button type="submit">Retirer du Panier</button></form>
+
+					<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
+					<div> 7,99€</div> <!-- affichage prix -->
+				</article>
+				<hr/>
+				<article> <!-- fromton N°3 -->
+					<img src="assets/img/content/briedemeaux.png"/>
+
+					<h2>Brie de Meaux AOP</h2>
+					<p>Le brie de Meaux est un fromage au lait cru dont l'appellation d'origine est préservée commercialement via une AOC depuis 1980.</p>
+					<ul>
+						<li>Patte Molle</li>
+						<li>Lait de Vache</li>
+						<li>Seine-et-Marne</li>
+					</ul>
+
+					<label for="nb_produit3">Nombre</label>
+					<input type="number" id="nb_produit3"></input>
+					<form action="https://tr.rbxcdn.com/5dc2e1e750df2a17754513e1777d58ec/420/420/Decal/Png"><button type="submit">Retirer du Panier</button></form>
+
+					<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
+					<div> 5,99€</div> <!-- affichage prix -->
+				</article>
+			</section>
+		</main>
 
 		<!--footer-->
+
+		<footer>
+			<section>
+				<h2>CONTACTS</h2>
+				<nav>
+					<ul class="footer_list" id="footer_contacts">
+						<li><a target="_blank" rel="noopener noreferrer" href="https://facebook.com/cheese."><img src="assets/img/facebook.png" alt="FACEBOOK" title="FACEBOOK" /></a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href="https://instagram.com/cheese."><img src="assets/img/instagram.png" alt="INSTAGRAM" title="INSTAGRAM" /></a></li>
+						<li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/cheese."><img src="assets/img/twitter.png" alt="TWITTER" title="TWITTER" /></a></li>
+						<li><a href="mailto:cheese-fromage@gmail.com"><img src="assets/img/mail.png" alt="MAIL" title="MAIL" /></a></li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h2>MENTIONS LÉGALES</h2>
+				<ul class="footer_list">
+					<li>Créé par <a  target="_blank" rel="noopener noreferrer" href="https://github.com/rmonier">Romain MONIER</a> &amp; <a  target="_blank" rel="noopener noreferrer" href="https://github.com/Cannapaich">Thomas BERGER</a></li>
+					<li><a href="tech.html">Lire les détails techniques</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>QUI SOMMES-NOUS ?</h2>
+				<ul class="footer_list">
+					<li><a href="cheese.html">Découvrez cheese.</a></li>
+				</ul>
+			</section>
+		</footer>
+
 	</body>
 </html>
