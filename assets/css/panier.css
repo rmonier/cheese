@@ -8,16 +8,21 @@ h1 {
 	main img {
 		max-width: 40vw;
 		padding: 25px;
+		margin: 0 30vw;
 	}
 
 	main h3 {
 		text-decoration: underline;
-		padding-left: 50px;
-		margin-top: 0;
+		margin: 0 auto;
+		width: fit-content;
 	}
 
 	main p {
-		padding-left: 25px;
+		margin: 0 auto;
+		max-width: 90vw;
+		width: fit-content;
+		padding-top: 25px;
+		text-align: justify; 
 	}
 
 	.specs, ul {
@@ -34,12 +39,30 @@ h1 {
 
 	ul li {
 		padding-top: 5px;
+		float: right;
+	}
+
+	ul li::after {
+		content: '';
+		display: none;
+		clearfix: both;
+	}
+
+	h2 {
+		margin: 0 auto;
+		width: fit-content;
+		font-size: 2em;
 	}
 }
 
 /* grand écran */
 @media (min-width: 1080px)
 {
+	h2 {
+		padding-left: 35px;
+		font-size: 2em;
+	}
+
 	article {
 		position: relative;
 	}
@@ -64,7 +87,7 @@ h1 {
 	}
 
 	main ul {
-		top: 175px;
+		top: 250px;
 		list-style: none;
 	}
 
@@ -74,7 +97,21 @@ h1 {
 	}
 
 	.specs {
-		top: 275px;
+		top: 375px;
+	}
+
+	.total h3 {
+		font-size: 1.2em;
+		margin: 0 auto 0 110px;
+		width: fit-content;
+		position: static;
+		float: none;
+		text-decoration: none;
+	}
+
+	.total div {
+		margin-left: 134px;
+		font-size: 1.4em;
 	}
 }
 
