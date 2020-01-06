@@ -24,7 +24,7 @@ body
 		"footer";
 	grid-template-columns: 1fr;
 	grid-template-rows: auto 1fr auto;
-	background-image: radial-gradient(circle, #f1f1df, #f3f3d8, #f5f4d1, #f7f6c9, #f9f7c2);
+	background-image: radial-gradient(circle, #ffffff, #f8f8f8, #f1f1f1, #eaeaea, #e3e3e3);
 	overflow-x: hidden;
 }
 
@@ -105,7 +105,7 @@ header #recherche
 
 header nav form
 {
-	background-image: radial-gradient(circle, #f1f1df, #f3f3d8, #f5f4d1, #f7f6c9, #f9f7c2);
+	background-image: radial-gradient(circle, #ffffff, #f8f8f8, #f1f1f1, #eaeaea, #e3e3e3);
 	border-radius: 15px;
 	padding: 2px 2px 2px 2px;
 }
