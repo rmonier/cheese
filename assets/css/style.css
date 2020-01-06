@@ -82,10 +82,32 @@ header #logo
 	height: auto;
 }
 
+header #recherche ~ input
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+
 header #recherche
 {
 	width: 80px;
-	height: auto;
+	outline: none;
+	height: 20px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	padding: 5px;
+}
+
+header nav form
+{
+	background-image: radial-gradient(circle, #f1f1df, #f3f3d8, #f5f4d1, #f7f6c9, #f9f7c2);
+	border-radius: 15px;
+	padding: 2px 2px 2px 2px;
 }
 
 header #h_dropcheck
