@@ -1,3 +1,8 @@
+h1 {
+	padding-left: 15px;
+}
+
+
 /* petit écran */
 @media (max-width: 1080px) {
 	main img {
@@ -5,7 +10,7 @@
 		padding: 25px;
 	}
 
-	main h2 {
+	main h3 {
 		text-decoration: underline;
 		padding-left: 50px;
 		margin-top: 0;
@@ -45,13 +50,13 @@
 		padding: 25px;
 	}
 
-	main h2, .specs, main ul, main p {
+	main h3, .specs, main ul, main p {
 		position: absolute;
 		float: right;
 		left: 45vw;
 	}
 
-	main h2 {
+	main h3 {
 		text-decoration: underline;
 		top: 35px;
 		margin-top: 0;
