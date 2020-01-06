@@ -1,0 +1,64 @@
+/* petit écran */
+@media (max-width: 1080px) {
+	main img {
+		max-width: 40vw;
+		padding: 25px;
+	}
+
+	main h2 {
+		text-decoration: underline;
+		padding-left: 50px;
+		margin-top: 0;
+	}
+
+	main p {
+		padding-left: 25px;
+	}
+
+	ul {
+		padding-left: 25px;
+		list-style: none;
+	}
+
+	ul li {
+		padding-top: 5px;
+	}
+}
+
+/* grand écran */
+@media (min-width: 1080px)
+{
+	article {
+		position: relative;
+	}
+
+	main img {
+		max-width: 40vw;
+		padding: 25px;
+	}
+
+	main h2, main ul, main p {
+		position: absolute;
+		float: right;
+		left: 45vw;
+	}
+
+	main h2 {
+		text-decoration: underline;
+		top: 35px;
+		margin-top: 0;
+		font-size: 2em;
+	}
+
+	main ul {
+		top: 175px;
+		list-style: none;
+	}
+
+	main p {
+		top: 75px;
+		max-width: 40vw;
+	}
+}
+
+
