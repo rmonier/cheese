@@ -20,7 +20,7 @@
 		text-align: justify; 
 	}
 
-	.specs, ul {
+	.specs, main ul {
 		padding-left: 25px;
 	}
 
@@ -28,22 +28,22 @@
 		margin-bottom: 35px;
 	}
 
-	ul {
+	main ul {
 		list-style: none;
 	}
 
-	ul li {
+	main ul li {
 		padding-top: 5px;
 		float: right;
 	}
 
-	ul li::after {
+	main ul li::after {
 		content: '';
 		display: none;
 		clearfix: both;
 	}
 
-	h2 {
+	main h2 {
 		margin: 0 auto;
 		width: fit-content;
 		font-size: 2em;
@@ -53,7 +53,7 @@
 /* grand écran */
 @media (min-width: 1080px)
 {
-	h2 {
+	main h2 {
 		padding-left: 35px;
 		font-size: 2em;
 	}
@@ -96,7 +96,7 @@
 	}
 
 	.total h3 {
-		font-size: 1.2em;
+		font-size: 2em;
 		margin: 0 auto 0 110px;
 		width: fit-content;
 		position: static;
@@ -105,8 +105,13 @@
 	}
 
 	.total div {
-		margin-left: 134px;
-		font-size: 1.4em;
+		margin-left: 145px;
+		font-size: 2.4em;
+	}
+
+	.total button {
+		float: right;
+		margin: -53px 70px 0 0;
 	}
 }
 
