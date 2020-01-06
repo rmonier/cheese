@@ -1,5 +1,5 @@
 /* petit écran */
-@media (max-width: 1080px) {
+@media (max-width: 1105px) {
 	main img {
 		max-width: 40vw;
 		padding: 25px;
@@ -26,7 +26,7 @@
 }
 
 /* grand écran */
-@media (min-width: 1080px)
+@media (min-width: 1105px)
 {
 	article {
 		position: relative;
@@ -45,19 +45,28 @@
 
 	main h2 {
 		text-decoration: underline;
-		top: 35px;
+		top: 235px;
 		margin-top: 0;
 		font-size: 2em;
 	}
 
 	main ul {
-		top: 175px;
+		top: 300px;
 		list-style: none;
 	}
 
 	main p {
-		top: 75px;
+		top: 400px;
 		max-width: 40vw;
+	}
+
+	.tech {
+		padding-left: 30px;
+	}
+
+	.tech div {
+		font-size: 1.7em;
+		padding-bottom: 15px;
 	}
 }
 
