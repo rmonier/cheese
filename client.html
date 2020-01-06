@@ -3,6 +3,7 @@
 	<head>
 		<title>cheese. – Espace Client</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/client.css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width">
 		<!-- ICÔNE -->
@@ -32,7 +33,7 @@
 					<li><a href="pro.html">PRO</a></li>
 					<li>
 						<form action="carte.html" method="POST">
-							<input name="recherche" id="recherche" type="text" placeholder="Rechercher..." autofocus />
+							<input name="recherche" id="recherche" type="text" placeholder="Rechercher..." />
 							<input type="submit" value="🔍︎" />
 						</form>
 					</li>
@@ -43,7 +44,17 @@
 		</header>
 		
 		<main>
-			<p>Espace Client</p>
+			<section>
+				<div class="centrer_skew">
+					<h2>Espace Client</h2>
+					<h3>Identifiez-vous !</h3>
+					<form id="login" action="client.html" method="POST">
+						<input type="email" name="mail" required placeholder="Adresse e-mail" autofocus />
+						<input type="password" name="password" required placeholder="Mot de passe" />
+						<input type="submit" value="Connexion" />
+					</form>
+				</div>
+			</section>
 		</main>
 		
 		<footer>

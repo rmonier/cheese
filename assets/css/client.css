@@ -1,0 +1,57 @@
+#login
+{
+	margin: 30px auto;
+	width: 240px;
+}
+
+#login input
+{
+	border: none;
+	height: 50px;
+	outline: none;
+}
+
+#login input[type="email"]
+{
+	background: #dedede;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	color: #363636;
+	padding-left: 35px;
+	width: 200px;
+}
+
+#login input[type="password"]
+{
+	background-color: #dedede;
+	border-top: 1px solid #828282;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 0 0 5px 5px;
+	color: #363636;
+	margin-bottom: 20px;
+	padding-left: 35px;
+	width: 200px;
+}
+
+#login input[type="submit"]
+{
+	background-image: linear-gradient(to right, #121c1d, #151f21, #172225, #1b2428, #1e272c);
+	border: 1px solid #391515;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 240px;
+}
+
+#login input[type="submit"]:hover
+{
+	opacity: 0.5;
+}

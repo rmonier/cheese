@@ -27,6 +27,11 @@ aside
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+aside input[type="text"]
+{
+	outline: none;
+}
+
 #carte_fromage
 {
 	margin: 0;
