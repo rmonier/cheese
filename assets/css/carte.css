@@ -91,7 +91,7 @@ aside input[type="text"]
 	font-size: 3em;
 }
 
-@media all and (max-width: 1105px)
+@media all and (max-width: 1215px)
 {
 	#carte_fromage
 	{
