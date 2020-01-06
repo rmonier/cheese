@@ -32,40 +32,44 @@
 	}
 }
 
-
 /* grand écran */
-article {
-	position: relative;
+@media (min-width: 1080px)
+{
+	article {
+		position: relative;
+	}
+
+	main img {
+		max-width: 40vw;
+		padding: 25px;
+	}
+
+	main h2, .specs, main ul, main p {
+		position: absolute;
+		float: right;
+		left: 45vw;
+	}
+
+	main h2 {
+		text-decoration: underline;
+		top: 35px;
+		margin-top: 0;
+		font-size: 2em;
+	}
+
+	main ul {
+		top: 175px;
+		list-style: none;
+	}
+
+	main p {
+		top: 75px;
+		max-width: 40vw;
+	}
+
+	.specs {
+		top: 275px;
+	}
 }
 
-main img {
-	max-width: 40vw;
-	padding: 25px;
-}
 
-main h2, .specs, main ul, main p {
-	position: absolute;
-	float: right;
-	left: 45vw;
-}
-
-main h2 {
-	text-decoration: underline;
-	top: 35px;
-	margin-top: 0;
-	font-size: 2em;
-}
-
-main ul {
-	top: 175px;
-	list-style: none;
-}
-
-main p {
-	top: 75px;
-	max-width: 40vw;
-}
-
-.specs {
-	top: 275px;
-}
