@@ -1,4 +1,32 @@
-main img {
-	
+@media (max-width: 1080px) {
+	main img {
+		max-width: 40vw;
+		padding: 25px;
+	}
 
+	main h2 {
+		text-decoration: underline;
+		padding-left: 50px;
+		margin-top: 0;
+	}
+
+	main p {
+		padding-left: 25px;
+	}
+
+	.specs, ul {
+		padding-left: 25px;
+	}
+
+	.specs {
+		margin-bottom: 35px;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	ul li {
+		padding-top: 5px;
+	}
 }
