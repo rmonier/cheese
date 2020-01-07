@@ -7,7 +7,6 @@
 	}
 
 	main h3 {
-		text-decoration: underline;
 		margin: 0 auto;
 		width: fit-content;
 	}
@@ -28,12 +27,22 @@
 		margin-bottom: 35px;
 	}
 
+	.specs input {
+		width: 33px;
+	}
+
+	.specs div {
+		font-size: 1.7em;
+	}
+
 	main ul {
 		list-style: none;
+		display: inline-block;
+		/*margin: auto;*/
 	}
 
 	main ul li {
-		padding-top: 5px;
+		padding: 5px 10px 0;
 		float: right;
 	}
 
@@ -47,6 +56,10 @@
 		margin: 0 auto;
 		width: fit-content;
 		font-size: 2em;
+	}
+
+	main article {
+		text-align: center;
 	}
 }
 
