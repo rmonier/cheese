@@ -55,7 +55,7 @@
 	main h2 {
 		margin: 0 auto;
 		width: fit-content;
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	main article {
@@ -67,8 +67,9 @@
 @media (min-width: 1080px)
 {
 	main h2 {
-		padding-left: 35px;
-		font-size: 2em;
+		margin: 0 auto;
+		width: fit-content;
+		font-size: 3em;
 	}
 
 	article {
@@ -88,7 +89,6 @@
 	}
 
 	main h3 {
-		text-decoration: underline;
 		top: 35px;
 		margin-top: 0;
 		font-size: 2em;
@@ -106,6 +106,14 @@
 
 	.specs {
 		top: 375px;
+	}
+
+	.specs input {
+		width: 33px;
+	}
+
+	.specs div {
+		font-size: 1.7em;		
 	}
 
 	.total h3 {
