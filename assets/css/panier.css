@@ -2,7 +2,6 @@
 @media (max-width: 1080px) {
 	main img {
 		max-width: 40vw;
-		padding: 25px;
 		margin: 0 30vw;
 	}
 
@@ -55,16 +54,11 @@
 		float: right;
 	}
 
-	main ul li::after {
-		content: '';
-		display: none;
-		clear: both;
-	}
-
 	main h2 {
 		margin: 0 auto;
 		width: fit-content;
 		font-size: 3em;
+		text-transform: uppercase;
 	}
 
 	main article {
@@ -79,6 +73,7 @@
 		margin: 0 auto;
 		width: fit-content;
 		font-size: 3em;
+		text-transform: uppercase;
 	}
 
 	article {
@@ -145,5 +140,3 @@
 		width: 200px;
 	}
 }
-
-
