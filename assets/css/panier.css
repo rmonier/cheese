@@ -13,7 +13,7 @@
 
 	main p {
 		margin: 0 auto;
-		max-width: 90vw;
+		max-width: 80vw;
 		width: fit-content;
 		padding-top: 25px;
 		text-align: justify; 
@@ -58,7 +58,7 @@
 	main ul li::after {
 		content: '';
 		display: none;
-		clearfix: both;
+		clear: both;
 	}
 
 	main h2 {
@@ -87,7 +87,6 @@
 
 	main img {
 		max-width: 35vw;
-		max-height: ;
 		padding: 25px;
 	}
 
@@ -142,6 +141,8 @@
 	.total button {
 		float: right;
 		margin: -53px 70px 0 0;
+		font-size: 1.2em;
+		width: 200px;
 	}
 }
 

@@ -1,5 +1,11 @@
 /* petit écran */
 @media (max-width: 1105px) {
+	main nav a {
+		margin-right: 80px;
+		float: right;
+		font-size: 1.2em;
+	}
+
 	main img {
 		width: 40vw;
 		padding: 25px;
@@ -16,12 +22,12 @@
 	main p {
 		margin: 0 auto;
 		font-size: 1.3em;
-		width: 90vw;
+		width: 87vw;
 		text-align: justify;
 	}
 
 	main ul {
-		padding-left: 25px;
+		padding-left: 75px;
 	}
 
 	main ul li {
@@ -30,7 +36,7 @@
 	}
 
 	.tech {
-		padding-left: 25px;
+		padding-left: 75px;
 		position: relative;
 	}
 
@@ -49,7 +55,7 @@
 
 	.tech .submit {
 		float: right;
-		margin-right: 50px;
+		margin-right: 80px;
 		margin-top: -30px;
 		font-size: 1.2em;
 		position: static;
@@ -58,7 +64,7 @@
 	.tech button {
 		position: absolute;
 		top: 50px;
-		right: 50px;
+		right: 80px;
 		font-size: 1.2em;
 		width: 200px;
 	}
@@ -67,6 +73,12 @@
 /* grand écran */
 @media (min-width: 1105px)
 {
+	main nav a {
+	float: right;
+	margin-right: 30px;
+	font-size: 1.2em;
+}
+
 	article {
 		position: relative;
 	}
@@ -150,12 +162,6 @@ main a {
 main a:visited {
 	text-decoration: none;
 	color: black;
-}
-
-main nav a {
-	float: right;
-	margin-right: 30px;
-	font-size: 1.2em;
 }
 
 main nav a::before {
