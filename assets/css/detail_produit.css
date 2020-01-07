@@ -1,20 +1,23 @@
 /* petit écran */
 @media (max-width: 1105px) {
 	main img {
-		max-width: 40vw;
+		width: 40vw;
 		padding: 25px;
+		margin: 0 30vw;
+		display: block;
 	}
 
 	main h2 {
 		font-size: 3em;
-		padding-left: 25px;
-		margin-top: 0;
+		margin: 0 auto;
+		width: fit-content;
 	}
 
 	main p {
-		padding-left: 25px;
+		margin: 0 auto;
 		font-size: 1.3em;
 		width: 90vw;
+		text-align: justify;
 	}
 
 	main ul {
@@ -47,6 +50,7 @@
 	.tech .submit {
 		float: right;
 		margin-right: 50px;
+		margin-top: -30px;
 		font-size: 1.2em;
 		position: static;
 	}
@@ -125,6 +129,7 @@
 		position: static;
 		float: right;
 		margin-right: 50px;
+		margin-top: -30px;
 		font-size: 1.2em;
 	}
 
@@ -132,7 +137,7 @@
 		margin-top: 20px;
 	}
 
-	aside a:hover {
+	main nav a:hover {
 		text-decoration: underline;
 	}
 }
@@ -142,27 +147,23 @@ main a {
 	color: black;
 }
 
-aside {
-	z-index: 999;
-}
-
 main a:visited {
 	text-decoration: none;
 	color: black;
 }
 
-aside a {
+main nav a {
 	float: right;
 	margin-right: 30px;
 	font-size: 1.2em;
 }
 
-aside a::before {
+main nav a::before {
 	content: "◄";
 	padding-right: 5px;
 }
 
-aside a::before:hover {
+main nav a::before:hover {
 	text-decoration: none;
 }
 

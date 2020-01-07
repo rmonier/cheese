@@ -35,6 +35,15 @@
 		font-size: 1.7em;
 	}
 
+	.total div {
+		font-size: 2em;
+	}
+
+	.total button {
+		font-size: 1.2em;
+		margin-top: 10px;
+	}
+
 	main ul {
 		list-style: none;
 		display: inline-block;

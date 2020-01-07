@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>cheese. – Panier</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-		<link rel="stylesheet" type="text/css" href="assets/css/panier.css"/>
+		<title>cheese. – Commande validée</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width">
 		<!-- ICÔNE -->
@@ -20,9 +19,8 @@
 			<meta name="theme-color" content="#ffffff">
 		<!-- - - - - - - -->
 	</head>
-
 	<body>
-
+	
 		<header>
 			<a href="index.html"><h1><img id="logo" src="assets/img/logo.png" alt="cheese." title="cheese." />cheese.</h1></a>
 			<input type="checkbox" class="header_dropdown" id="h_dropcheck" value="" name="h_dropcheck"><label class="header_dropdown" for="h_dropcheck"><span id="h_dropsign_open">≡</span><span id="h_dropsign_close">🞨</span></label>
@@ -43,84 +41,23 @@
 				</ul>
 			</nav>
 		</header>
+		
 		<main>
 			<section>
-				<h2>Mon Panier</h2>
-				<hr/>
-				<hr/>
-				<article> <!-- fromton N°1 -->
-					<img alt="beaufort" src="assets/img/content/Beaufort_3_OK_600600-600x600.jpg"/>
-					<h3>Beaufort AOP</h3>
-					<p>Le Beaufort est un fromage à pâte cuite pressée cuite provenant de Savoie. Il est produit à base de lait cru de vache.</p>
-					<ul>
-						<li>Pâte cuite pressée cuite</li>
-						<li>Lait cru de vache</li>
-						<li>Affinage de 9 mois</li>
-					</ul>
-
-					<div class="specs">
-						<label for="nb_produit1">Nombre</label>
-						<input type="number" min=1 value="1" id="nb_produit1" /> 
-						<button>Ajouter une Boîte</button>
-						<button>Retirer du Panier</button>
-						<div>13.60 €</div>
-					</div>				
-				</article>
-				<hr/>
-				<article> <!-- fromton N°2 -->
-					<img alt="brie de meaux" src="assets/img/content/brie-de-meaux_600600.jpg"/>
-
-					<h3>Brie de Meaux AOP</h3>
-					<p>Le Brie de Meaux est un fromage au lait cru de vache, à pâte molle et à croûte fleurie d’un léger duvet blanc, dont la teneur en matière grasse sur produit fini est de 21%. Ces fromages se fabriquent en cylindre plat (35 à 37 cm de diamètre, 2,5 cm d’épaisseur) pesant 2,6 kg environ, vendu non emballé sur paillon.</p>
-					<ul>
-						<li>Pâte molle</li>
-						<li>Lait cru de vache</li>
-						<li>Affinage de 1 mois</li>
-					</ul>
-
-					<div class="specs">
-						<label for="nb_produit2">Nombre</label>
-						<input type="number" min=1 value="1" id="nb_produit2" />
-						<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
-						<button>Retirer du Panier</button>
-						<div>6.60 €</div> <!-- affichage prix -->
-					</div>
-				</article>
-				<hr/>
-				<article> <!-- fromton N°3 -->
-					<img alt="raclette au foin" src="assets/img/content/Raclette_au-Foin_JLM_600600.jpg"/>
-
-					<h3>Raclette au Foin</h3>
-					<p>La Raclette au foin est une pâte pressée non cuite au lait cru de vache.</p>
-					<ul>
-						<li>Pâte pressée non cuite</li>
-						<li>Lait cru de vache</li>
-						<li>Affinage de 12 mois</li>
-					</ul>
-
-					<div class="specs">
-						<label for="nb_produit3">Nombre</label>
-						<input type="number" min=1 value="1" id="nb_produit3" />
-						<button>Ajouter une Boîte</button> <!-- ajouter une boite -->
-						<button>Retirer du Panier</button>
-						<div>8.40 €</div> <!-- affichage prix -->
-					</div>
-				</article>
-				<hr/>
-				<hr/>
-				<article class="total">
-					<h3>Total Panier</h3>
-					<div>28,60€</div>
-					<form method="post" action="./validation.html">
-						<button type="submit">Valider mon panier</button>
-					</form>
-				</article>
+				<div class="centrer_skew">
+					<h2>COMMANDE VALIDÉE</h2>
+					<article>
+						<h3>Votre commande a été effectuée et sera bientôt livrée !</h3>
+						<p>Vous pouvez suivre votre commande sur votre espace perso.</p>
+						<p><a href="./client.html" class="link_detail">Espace perso</a></p>
+					</article>
+				</div>
 			</section>
 		</main>
-
+		
 		<footer>
 			<section>
-				<h3>CONTACTS</h3>
+				<h2>CONTACTS</h2>
 				<nav>
 					<ul class="footer_list" id="footer_contacts">
 						<li><a target="_blank" rel="noopener noreferrer" href="https://facebook.com/cheese."><img src="assets/img/facebook.png" alt="FACEBOOK" title="FACEBOOK" /></a></li>
@@ -131,18 +68,19 @@
 				</nav>
 			</section>
 			<section>
-				<h3>MENTIONS LÉGALES</h3>
+				<h2>MENTIONS LÉGALES</h2>
 				<ul class="footer_list">
 					<li>Créé par <a  target="_blank" rel="noopener noreferrer" href="https://github.com/rmonier">Romain MONIER</a> &amp; <a  target="_blank" rel="noopener noreferrer" href="https://github.com/Cannapaich">Thomas BERGER</a></li>
 					<li><a href="tech.html">Lire les détails techniques</a></li>
 				</ul>
 			</section>
 			<section>
-				<h3>QUI SOMMES-NOUS ?</h3>
+				<h2>QUI SOMMES-NOUS ?</h2>
 				<ul class="footer_list">
 					<li><a href="cheese.html">Découvrez cheese.</a></li>
 				</ul>
 			</section>
 		</footer>
+		
 	</body>
 </html>
